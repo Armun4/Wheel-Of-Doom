@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.slider {
+    width: fit-content;
+    position: relative;
+    background-color: rgb(214, 0, 0);
+    display: flex;
+    left: -62px;
+}
+.slider div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+    border-right: rgb(0, 0, 0) 3px solid;
+    border-left: rgb(0, 0, 0) 3px solid;
+    width: 25vh;
+    padding: 15px 0;
+}
+.slider div img{
+    width: 100%;
+}
+.slider div h2 {
+    font-size: 4vh;
+}
