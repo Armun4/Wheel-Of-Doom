@@ -1,0 +1,26 @@
+.header {
+  position: relative;
+  background-color: aquamarine;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title1 {
+  font-size: small;
+  margin-top: 2.9vh;
+}
+
+.plusimg {
+  height: 2.5vh;
+}
+
+.trashimg {
+  margin-left: 2.2vh;
+  height: 2.5vh;
+}
+
+.buttons {
+  margin-top: 2.9vh;
+}
+
