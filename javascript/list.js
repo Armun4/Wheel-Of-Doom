@@ -131,12 +131,12 @@ let coderList = [
         id:25,
     },
     {
-        name:"Gabriela B",
+        name:"Gabi B",
         img:"Photos/cryptopunks/cp24.png",
         id:26,
     },
     {
-        name:"Gabriela P",
+        name:"Gabi P",
         img:"Photos/cryptopunks/cp06.png",
         id:27,
     },
