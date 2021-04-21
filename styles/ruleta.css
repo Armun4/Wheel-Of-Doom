@@ -41,7 +41,8 @@ footer {
     height: 5vh;
     width: 60%;
     text-shadow:0px 1px 0px #665628;
-    margin: 20px;
+    margin: 15px auto;
+ 
 }
 .btn1:hover {
     background:linear-gradient(to bottom, #A7BD2A 5%, #DBD10F 100%);
@@ -62,7 +63,8 @@ footer {
     width: 60%;
     text-decoration:none;
     text-shadow:0px 1px 0px #66293D;
-    margin: 20px;
+    margin: 15px auto;
+    
 }
 .btn2:hover {
     background:linear-gradient(to bottom, #F00C1F 5%, #ED1A3D 100%);
@@ -93,4 +95,6 @@ footer {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    margin: 0;
+    padding: 0;
 }
