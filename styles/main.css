@@ -1,0 +1,28 @@
+main {
+  font-family: "Source Code Pro", monospace;
+  height: 90vh;
+}
+.coders-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  grid-gap: 2rem;
+  padding: 1rem;
+  height: 44vh;
+  overflow-y: auto;
+}
+.coder-token {
+  background-color: lightgray;
+  display: flex;
+  flex-flow: column;
+}
+.coder-avatar {
+  background-color: #638596;
+}
+.coder-avatar img {
+   display: block;
+   width: 100%;
+}
+.coder-name {
+    text-align: center;
+    font-weight: bold;
+}
