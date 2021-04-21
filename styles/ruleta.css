@@ -1,0 +1,96 @@
+footer {
+    background-color: #C4C4C4;
+    width: 100vw;
+    height: 42vh;
+}
+.slider {
+    width: fit-content;
+    position: relative;
+    background-color: rgb(214, 0, 0);
+    display: flex;
+    left: -62px;
+    top: -14px;
+}
+.slider div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+    border-right: rgb(0, 0, 0) 3px solid;
+    border-left: rgb(0, 0, 0) 3px solid;
+    width: 40vw;
+    padding: 15px 0;
+}
+.slider div img{
+    width: 33vw;
+}
+.slider div h2 {
+    font-size: 3vh;
+}
+
+.btn1 {
+    box-shadow: 0px 1px 0px 0px #E8E817;
+    background:linear-gradient(to bottom, #DBD10F 5%, #A7BD2A 100%);
+    background-color:#dbd10f;
+    border-radius:10px;
+    border:1px solid #DFE61C;
+    cursor:pointer;
+    color:#ffffff;
+    text-decoration:none;
+    height: 5vh;
+    width: 60%;
+    text-shadow:0px 1px 0px #665628;
+    margin: 20px;
+}
+.btn1:hover {
+    background:linear-gradient(to bottom, #A7BD2A 5%, #DBD10F 100%);
+    background-color:#a7bd2a;
+}
+.btn1:active {
+    position:relative;
+    top:1px;
+}
+.btn2 {
+    box-shadow: 0px 1px 0px 0px #D12C63;
+    background:linear-gradient(to bottom, #ED1A3D 5%, #F00C1F 100%);
+    background-color:#ed1a3d;
+    border-radius:10px;
+    cursor:pointer;
+    color:#ffffff;
+    height: 5vh;
+    width: 60%;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #66293D;
+    margin: 20px;
+}
+.btn2:hover {
+    background:linear-gradient(to bottom, #F00C1F 5%, #ED1A3D 100%);
+    background-color:#f00c1f;
+}
+.btn2:active {
+    position:relative;
+    top:1px;
+}
+.fig{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 28vw;
+    height: 16vh;
+    top: -20px;
+    align-items: center;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0%, 100% 70%, 50% 100%, 0 70%);
+}
+.fig img{
+    object-fit: cover;
+    align-content: center;
+    display: flex;
+    height: 10vh;
+}
+.foot-parti-1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
