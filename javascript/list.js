@@ -28,7 +28,7 @@ let coderList = [
     },
     {
         name:"Alex",
-        img:"Photos/cryptopunks/cp14.png",
+        img:"Photos/cryptopunks/cp03.png",
         id:5,
     },
     {
