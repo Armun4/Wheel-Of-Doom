@@ -9,11 +9,17 @@ main {
 body {
   padding: 1rem;
 }
+
+.coders-display {
+  position: absolute;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 50vh;
+
+}
 .coders-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  grid-gap: 2rem;
-  padding: 1rem;
+  height: 44vh;
+  overflow-y: auto;
 }
 .coder-token {
   background-color: lightgray;
