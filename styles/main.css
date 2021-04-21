@@ -11,13 +11,11 @@ main {
 
 }
 .coders-list {
-<<<<<<< HEAD:main.css
-=======
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  grid-template-rows: repeat(auto-fill, 100px);
   grid-gap: 2rem;
   padding: 1rem;
->>>>>>> f27dd3e7dbd4fa3f4d922a50c0d66aae28f127c0:styles/main.css
   height: 44vh;
   overflow-y: auto;
 }
@@ -25,6 +23,7 @@ main {
   background-color: lightgray;
   display: flex;
   flex-flow: column;
+  height: fit-content;
 }
 .coder-avatar {
   background-color: #638596;
