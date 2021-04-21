@@ -2,9 +2,18 @@ main {
   font-family: "Source Code Pro", monospace;
   height: 90vh;
 }
+
+.coders-display {
+  position: absolute;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 50vh;
+
+}
 .coders-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  grid-template-rows: repeat(auto-fill, 100px);
   grid-gap: 2rem;
   padding: 1rem;
   height: 44vh;
@@ -14,6 +23,7 @@ main {
   background-color: lightgray;
   display: flex;
   flex-flow: column;
+  height: fit-content;
 }
 .coder-avatar {
   background-color: #638596;
