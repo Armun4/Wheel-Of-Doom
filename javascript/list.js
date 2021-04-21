@@ -18,7 +18,7 @@ let coderList = [
     },
     {
         name:"Armando",
-        img:"Photos/cryptopunks/cp17.png",
+        img:"Photos/cryptopunks/cp27.png",
         id:3,
     },
     {
@@ -28,62 +28,62 @@ let coderList = [
     },
     {
         name:"Alexandra",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp14.png",
         id:5,
     },
     {
         name:"Bertha",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp11.png",
         id:6,
     },
     {
         name:"Franco",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp16.png",
         id:7,
     },
     {
         name:"Martin",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp17.png",
         id:8,
     },
     {
         name:"Salomon",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp13.png",
         id:9,
     },
     {
         name:"Amr",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp25.png",
         id:10,
     },
     {
         name:"Andrea C",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp19.png",
         id:11,
     },
     {
         name:"Andrea E",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp23png",
         id:12,
     },
     {
         name:"Jael",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp14.png",
         id:13,
     },
     {
         name:"Jose",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp20.png",
         id:14,
     },
     {
         name:"Sergio",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp08.png",
         id:15,
     },
     {
         name:"Cris",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp02.png",
         id:16,
     },
     {
@@ -93,7 +93,7 @@ let coderList = [
     },
     {
         name:"David S",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp04.png",
         id:18,
     },
     {
@@ -103,22 +103,22 @@ let coderList = [
     },
     {
         name:"Snzhana",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp09.png",
         id:20,
     },
     {
         name:"Andriu",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp21.png",
         id:21,
     },
     {
         name:"Diego C",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp07.png",
         id:22,
     },
      {
         name:"Sergi",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp18.png",
         id:23,
     },{
         name:"Joan",
@@ -127,17 +127,17 @@ let coderList = [
     },
     {
         name:"Andres",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp10.png",
         id:25,
     },
     {
         name:"Gabriela B",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp24.png",
         id:26,
     },
     {
         name:"Gabriela P",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp06.png",
         id:27,
     },
 
