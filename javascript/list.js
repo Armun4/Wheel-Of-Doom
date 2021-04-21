@@ -63,7 +63,7 @@ let coderList = [
     },
     {
         name:"Andrea E",
-        img:"Photos/cryptopunks/cp23png",
+        img:"Photos/cryptopunks/cp23.png",
         id:12,
     },
     {
@@ -88,7 +88,7 @@ let coderList = [
     },
     {
         name:"David H",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp30.png",
         id:16,
     },
     {
@@ -98,7 +98,7 @@ let coderList = [
     },
     {
         name:"Diego G",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp29.png",
         id:19,
     },
     {
@@ -122,7 +122,7 @@ let coderList = [
         id:23,
     },{
         name:"Joan",
-        img:"Photos/cryptopunks/.png",
+        img:"Photos/cryptopunks/cp28.png",
         id:24,
     },
     {
