@@ -28,8 +28,13 @@ function slider() {
 }
 slider()
 
+const botonGo = document.querySelector(".btn1")
+
 function go() {
     let slider = document.querySelector(".slider")
-    console.log(slider)
+    let mePosition = slider.offsetLeft
+    let newPosition = 12
+    mePosition += newPosition
+    console.log(mePosition)
 }
-go()
+botonGo.addEventListener("click", go)
