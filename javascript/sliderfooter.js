@@ -33,8 +33,19 @@ const botonGo = document.querySelector(".btn1")
 function go() {
     let slider = document.querySelector(".slider")
     let mePosition = slider.offsetLeft
-    let newPosition = 12
-    mePosition += newPosition
-    console.log(mePosition)
+    let numberRandom = Math.random() * 1000
+    let result = mePosition + -numberRandom
+    slider.style.left = result + "px"
+    newDead(numberRandom)
+}
+function newDead(numb) {
+    let slider = document.querySelector(".slider")
+    let player = slider.offsetWidth / coderList.length
+    console.log()
+    // slider anchura
+    // como de ancho 
+    // coger el numero random
+    // operacion matematica
+    //  
 }
 botonGo.addEventListener("click", go)

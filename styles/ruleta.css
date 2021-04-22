@@ -10,6 +10,7 @@ footer {
     display: flex;
     left: -62px;
     top: -14px;
+    transition: left 1000ms;
 }
 .slider div {
     position: relative;
