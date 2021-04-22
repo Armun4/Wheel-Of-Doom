@@ -3,7 +3,7 @@ let coderList = [
     name: "Abdulha",
     img: "Photos/cryptopunks/cp15.png",
     id: 0,
-    
+
   },
   {
     name: "Leah",
@@ -88,7 +88,7 @@ let coderList = [
   {
       name:"David H",
       img:"Photos/cryptopunks/cp30.png",
-      id:16,
+      id:17,
   },
   {
       name:"David S",
@@ -140,3 +140,4 @@ let coderList = [
       id:27,
   },
 ];
+
