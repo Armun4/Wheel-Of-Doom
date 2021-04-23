@@ -1,4 +1,11 @@
-er>
+let plusbutton = document.getElementById("plusButton")
+plusbutton.onclick= filemodal
+
+function filemodal(content) {  
+    let photosind = content.id
+
+    let newplayer = ""
+    newplayer += `
     <section   class="product-description">
         <h3 class="newplayer">New player</h3> 
         <h3 class="name">name</h3> 
@@ -22,5 +29,22 @@ er>
 
     <a href="#" class="myButton">Create</a>
 
-    </section>
-</container>
+    </section>`
+    document.getElementById("root").innerHTML = newplayer
+}
+
+function newfile() {
+    let listfile = ""
+    let number = coderList.length
+    for (let i = 0; i < number; i++) {
+        listfile += `
+    <div class="coders_display" onclick="filemodal" id="${coderList[i].index}">
+        <img src="${coderList[i].img}" alt="${coderList[i].alt}">
+    </div>
+    `
+    }
+document.querySelector(".coders_display").innerHTML = listItems
+}
+newfilw()
+
+
