@@ -12,8 +12,7 @@
 .newplayer {
   font-size: 30px;
 }
-.name {
-}
+
 .input {
   width: 40vw;
   height: 3vh;
@@ -21,7 +20,6 @@
 }
 .photo {
   height: 18vh;
-  margin-top: 10%;
 }
 .myButton {
   background-color: #44c767;
@@ -46,12 +44,8 @@
   top: 1px;
 }
 .voting {
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 0.25rem;
   display: flex;
   flex-direction: column;
-  height: 2vh;
-  width: 3vw;
   align-self: center;
   margin-top: 2%;
 }
@@ -65,25 +59,21 @@
 }
 .voting__triangle {
   border-style: solid;
-  /* Size */
 }
 .voting__triangle--up {
   border-color: transparent transparent rgba(0, 0, 0, 0.3);
-  border-width: 0 0.5rem 0.5rem;
+  border-width: 0 1.5rem 1.5rem;
 }
 .voting__triangle--down {
   border-color: rgba(0, 0, 0, 0.3) transparent transparent;
-  border-width: 0.5rem 0.5rem 0px;
+  border-width: 1.5rem 1.5rem 0px;
 }
 .voting__number {
-  /* Take the available height */
   flex: 1;
-  /* Center the number */
   align-items: center;
   display: flex;
   justify-content: center;
-  /* Spacing */
-  padding: 0.25rem;
+  padding: 0.50rem;
 }
 .container {
   width: 100%;
@@ -97,4 +87,24 @@
 }
 .photo_botton {
   display: flex;
+}
+
+.exit {
+  position: absolute;
+  top: 3vw;
+  left: 3vh;
+	background-color:#44c767;
+	border-radius:32px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 11px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.exit:hover {
+	background-color:#5cbf2a;
 }
