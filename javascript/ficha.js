@@ -51,7 +51,7 @@ function arrowSelect(select){
       photoselect.src= coderList[photoselect.id ++].img
       photoselect.id= photoselect.id ++
     }
-    else if (select.id === "down" && photoselect.id > 0){
+    else if (select.id === "down" && photoselect.id >= 0){
         photoselect.src=coderList[photoselect.id --].img
         photoselect.id= photoselect.id --
     }
