@@ -1,29 +1,26 @@
 .product-description {
   background-color: aquamarine;
-  width: 17vw;
   height: 60vh;
-  position: fixed;
+  position: absolute;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   flex-direction: column;
   border-radius: 15%;
+  width: 66vw;
 }
 .newplayer {
   font-size: 30px;
-  margin-left: 20%;
 }
 .name {
-  margin-left: 40%;
 }
 .input {
-  width: 10vw;
+  width: 40vw;
   height: 3vh;
-  margin-left: 17%;
   border: 5px solid black;
 }
 .photo {
-  width: 8vw;
   height: 18vh;
-  margin-left: 7%;
   margin-top: 10%;
 }
 .myButton {
@@ -39,9 +36,7 @@
   text-decoration: none;
   text-shadow: 0px 1px 0px #2f6627;
   height: 2vh;
-  width: 3vw;
   margin-top: 10%;
-  margin-left: 25%;
 }
 .myButton:hover {
   background-color: #5cbf2a;
@@ -71,8 +66,6 @@
 .voting__triangle {
   border-style: solid;
   /* Size */
-  height: 0;
-  width: 0;
 }
 .voting__triangle--up {
   border-color: transparent transparent rgba(0, 0, 0, 0.3);
@@ -91,4 +84,17 @@
   justify-content: center;
   /* Spacing */
   padding: 0.25rem;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo_botton {
+  display: flex;
 }

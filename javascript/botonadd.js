@@ -1,3 +1,4 @@
+/*
 let addbtn = document.getElementById("mybutton")
 addbtn.onclick = newplayer
 
@@ -16,3 +17,4 @@ function  addplayer () {
       }
     
 }
+*/

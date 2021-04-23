@@ -1,16 +1,15 @@
 let plusbutton = document.querySelector(".plusButton")
 
-
 function filemodal() {  
-çconsole.log("hola");
     let newplayer = ""
     newplayer += `
+    <div class="container">
     <section   class="product-description">
         <h3 class="newplayer">New player</h3> 
         <h3 class="name">name</h3> 
         <input type="text" class="input" >
-     <div  class="photo.botton">
-        <img src="./Photos/cryptopunks/3cp.png" class="photo"> <div class="voting"> 
+     <div  class="photo_botton">
+        <img src="./Photos/cryptopunks/cp03.png" class="photo"> <div class="voting"> 
             <!-- Up button -->
              <button class="voting__button">
                   <div class="voting__triangle voting__triangle--up"></div> 
@@ -28,12 +27,13 @@ function filemodal() {
 
     <a href="#" class="myButton">Create</a>
 
-    </section>`
+    </section>
+    </div>`
 
     document.getElementById("root").innerHTML = newplayer
 }
-plusButton.addEventListener ("click", filemodal )
-
+plusbutton.addEventListener ("click", filemodal )
+/*
 function newfile() {
     let listfile = ""
     let number = coderList.length
@@ -44,8 +44,10 @@ function newfile() {
     </div>
     `
     }
-document.querySelector(".coders_display").innerHTML = listItems
+    console.log(document.querySelector(".coders_display"))
+    document.querySelector(".coders_display").innerHTML = listfile
 }
 newfile()
 
 
+*/
