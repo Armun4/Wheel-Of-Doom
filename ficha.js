@@ -1,9 +1,8 @@
-let plusbutton = document.getElementById("plusButton")
-plusbutton.onclick= filemodal
+let plusbutton = document.querySelector(".plusButton")
 
-function filemodal(content) {  
-    let photosind = content.id
 
+function filemodal() {  
+çconsole.log("hola");
     let newplayer = ""
     newplayer += `
     <section   class="product-description">
@@ -30,8 +29,10 @@ function filemodal(content) {
     <a href="#" class="myButton">Create</a>
 
     </section>`
+
     document.getElementById("root").innerHTML = newplayer
 }
+plusButton.addEventListener ("click", filemodal )
 
 function newfile() {
     let listfile = ""
@@ -45,6 +46,6 @@ function newfile() {
     }
 document.querySelector(".coders_display").innerHTML = listItems
 }
-newfilw()
+newfile()
 
 

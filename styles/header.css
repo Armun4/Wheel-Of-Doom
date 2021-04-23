@@ -1,26 +1,25 @@
 .header {
+  padding: 1rem;
   font-family: "Source Code Pro", monospace;
   font-weight: bold;
   position: relative;
   background-color: aquamarine;
-  height: 10vh;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
 }
-
-.title1 {
-  font-size: small;
-  margin-top: 2.9vh;
+.header h1 {
+  font-size: 1.7rem;
+  font-family: 'VT323', monospace;
 }
-
-.plusimg {
+.buttons {
+  display: flex;
+}
+.buttons img {
   height: 2.5vh;
+  margin: 10px;
 }
-
-.trashimg {
-  margin-left: 2.2vh;
-  height: 2.5vh;
-}
+<<<<<<< HEAD
 
 .buttons {
   margin-top: 2.9vh;
@@ -28,3 +27,5 @@
 
 
 
+=======
+>>>>>>> e0b181944850cfe35964c24a8f67704d159b59d7

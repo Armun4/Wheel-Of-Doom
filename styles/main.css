@@ -1,22 +1,18 @@
-main {
+/* este body tiene que ser main... */
+body {
   font-family: "Source Code Pro", monospace;
+  font-weight: bold;
   height: 90vh;
 }
-
-.coders-display {
-  position: absolute;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  height: 50vh;
-
-}
+/* .coders-display {
+  scroll-padding-bottom: 2rem;
+} */
 .coders-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  grid-template-rows: repeat(auto-fill, 100px);
-  grid-gap: 2rem;
   padding: 1rem;
   height: 44vh;
+  display: grid;
+  grid-template: repeat(auto-fill, 125px) / repeat(auto-fit, minmax(80px, 1fr));
+  grid-gap: 2rem;
   overflow-y: auto;
 }
 .coder-token {
@@ -35,4 +31,6 @@ main {
 .coder-name {
     text-align: center;
     font-weight: bold;
+    margin: auto;
+    line-height: 1.6;
 }

@@ -18,7 +18,7 @@ function slider() {
     let player = ""
     for (let i = 0; i < coderList.length; i++){
     player += `
-        <div>
+        <div id="${i}">
             <h2>${coderList[i].name}</h2>
             <img src="${coderList[i].img}"/>
         </div>
@@ -28,8 +28,25 @@ function slider() {
 }
 slider()
 
+const botonGo = document.querySelector(".btn1")
+
 function go() {
     let slider = document.querySelector(".slider")
-    console.log(slider)
+    let player = slider.offsetWidth / coderList.length
+    let numberRandom = Math.floor((Math.random() * coderList.length - 1)+1)
+    console.log(numberRandom)
+    let meNewPosition = - player * numberRandom
+    slider.style.left = (meNewPosition + player) + "px" 
+    newDead(numberRandom)
 }
-go()
+function newDead(numb) {
+    let slider = document.querySelector(".slider")
+    let player = slider.offsetWidth / coderList.length
+    console.log()
+    // slider anchura
+    // como de ancho 
+    // coger el numero random
+    // operacion matematica
+
+}
+botonGo.addEventListener("click", go)
