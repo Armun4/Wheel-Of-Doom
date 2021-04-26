@@ -13,3 +13,13 @@ function deleteCoder () {
   }onck
 
 trash.addEventListener('click',deleteCoder)
+
+
+function eraseCoder (file) {
+  let indexCoder = file.parentElement.parentElement.id
+  coderList.splice(indexCoder,1)
+
+ createPlayers() 
+ slider()
+ deleteCoder ()
+}
