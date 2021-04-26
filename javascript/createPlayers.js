@@ -27,9 +27,7 @@ function createPlayers() {
     }
     document.querySelector(".coders-list").innerHTML = coder
 }
-createPlayers()
-
-function slider() {
+function upDateRoulette() {
     let player = ""
     for (let i = 0; i < coderList.length; i++){
         if (coderList[i].life === true){
@@ -44,36 +42,5 @@ function slider() {
     
     document.querySelector(".slider").innerHTML = player
 }
-slider()
-
-const botonGo = document.querySelector(".btn1")
-
-function go() {
-    slider()
-    let sliders = document.querySelector(".slider")
-    let playersLife = document.querySelectorAll(".slider div")
-    let player = sliders.offsetWidth / playersLife.length
-    let numberRandom = Math.floor((Math.random() * playersLife.length - 1)+1)
-    let dead = playersLife[numberRandom].id
-    console.log(dead)
-    let meNewPosition = - player * numberRandom
-    sliders.style.left = (meNewPosition + player) + "px" 
-    coderList[dead].life = false
-    createPlayers()
-}
-
-botonGo.addEventListener("click", go)
-
-const botonReset = document.querySelector(".btn2")
-
-function reset() {  
-    for (let i = 0; i < coderList.length; i++) {
-        coderList[i].life = true
-        document.querySelector(".slider").style.left = -62 + "px"
-        slider()
-        createPlayers()
-    }
-}
-
-botonReset.addEventListener("click", reset)
-//aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+createPlayers()
+upDateRoulette()

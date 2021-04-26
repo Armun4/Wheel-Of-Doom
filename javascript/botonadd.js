@@ -4,7 +4,7 @@ function newplayer() {
     coderList.push({name:inputvalue,img: imgsearch.src, id: coderList.length,life:true})
     exit()
     createPlayers()
-    slider()
+    upDateRoulette()
 }
 
 
