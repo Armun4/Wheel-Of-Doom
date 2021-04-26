@@ -76,3 +76,4 @@ function reset() {
 }
 
 botonReset.addEventListener("click", reset)
+//aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
