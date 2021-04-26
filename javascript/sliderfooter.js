@@ -4,7 +4,9 @@ function createPlayers() {
         if (coderList[i].life === true) {
             coder += `
         <li class="coder-token">
+       
             <figure class="coder-avatar">
+            <button class="delete block">X</button>
                 <img src="${coderList[i].img}" alt="" />
             </figure>
             <figcaption class="coder-name">${coderList[i].name}</figcaption>
