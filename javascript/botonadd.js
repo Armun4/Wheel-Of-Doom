@@ -6,3 +6,5 @@ function newplayer() {
     createPlayers()
     slider()
 }
+
+

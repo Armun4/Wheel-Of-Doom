@@ -10,7 +10,7 @@ function filemodal() {
       <h3 class="name">name</h3>
       <input type="text" class="input" />
       <div class="photo_botton">
-        <img src="./Photos/cryptopunks/cp20.png" id="14" class="photo" />
+        <img src="./Photos/cryptopunks/cp14.png" id="14" class="photo" />
         <div class="voting">
           <!-- Up button -->
           <div
@@ -47,15 +47,15 @@ function exit() {
 
 function arrowSelect(select){
     let photoselect = document.querySelector(".photo")
-    if (select.id === "up"){
-      photoselect.src= coderList[photoselect.id ++].img
-      photoselect.id= photoselect.id ++
+    let index = photoselect.id
+    if (select.id === "up" && photoselect.id < coderList.length){
+      photoselect.src= coderList[index++].img
+      photoselect.id = index ++
     }
-    if (select.id === "down"){
-
-        photoselect.src=coderList[photoselect.id --].img
-        photoselect.id= photoselect.id --
+    else if (select.id === "down" && photoselect.id > 0){
+        photoselect.src=coderList[index --].img
+        photoselect.id= index --
     }
-    
-
+    // al darle click al boton de las flechas, funciona la segundo click
+    // problema de imagen 
 }
