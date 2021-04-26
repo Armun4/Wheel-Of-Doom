@@ -6,7 +6,7 @@ function createPlayers() {
         <li class="coder-token">
        
             <figure class="coder-avatar">
-            <button class="delete block">X</button>
+            <button class="delete" style="display:none">X</button>
                 <img src="${coderList[i].img}" alt="" />
             </figure>
             <figcaption class="coder-name">${coderList[i].name}</figcaption>
