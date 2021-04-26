@@ -1,6 +1,6 @@
 let plusbutton = document.querySelector(".plusButton")
 
-function filemodal() {  
+function recordCreator() {  
     let newplayer = ""
     newplayer += `
     <div class="container">
@@ -16,7 +16,7 @@ function filemodal() {
           <div
             class="voting__triangle voting__triangle--up"
             id="up"
-            onClick="arrowSelect(this)"
+            onClick="photoChoice(this)"
           ></div>
           <!-- Number -->
           <div class="voting__number"></div>
@@ -24,28 +24,24 @@ function filemodal() {
           <div
             class="voting__triangle voting__triangle--down"
             id="down"
-            onClick="arrowSelect(this)"
+            onClick="photoChoice(this)"
           ></div>
         </div>
       </div>
-  
       <a href="#" onClick="newplayer()" class="myButton">Create</a>
     </section>
   </div>
   `
-  
-
     document.getElementById("root").innerHTML = newplayer
 }
 
-plusbutton.addEventListener ("click", filemodal )
-
+plusbutton.addEventListener ("click", recordCreator)
 
 function exit() {
     document.querySelector("#root").innerHTML = ""
 }
 
-function arrowSelect(select){
+function photoChoice(select){
     let photoselect = document.querySelector(".photo")
     let index = photoselect.id
     if (select.id === "up" && photoselect.id < coderList.length){
