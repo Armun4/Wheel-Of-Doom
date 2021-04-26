@@ -10,6 +10,6 @@ function deleteCoder () {
       arrayDelete[i].style.display='none';
       }
     }
-  }
+  }onck
 
 trash.addEventListener('click',deleteCoder)
