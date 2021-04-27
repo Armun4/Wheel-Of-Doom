@@ -44,12 +44,12 @@ function exit() {
 function photoChoice(select){
     let photoselect = document.querySelector(".photo")
     let index = photoselect.id
-    if (select.id === "up" && photoselect.id < coderList.length){
-      photoselect.src= coderList[index++].img
+    if (select.id === "up" && photoselect.id < photoList.length){
+      photoselect.src= photoList[index++].img
       photoselect.id = index ++
     }
     else if (select.id === "down" && photoselect.id > 0){
-        photoselect.src=coderList[index --].img
+        photoselect.src=photoList[index --].img
         photoselect.id= index --
     }
     // al darle click al boton de las flechas, funciona la segundo click
