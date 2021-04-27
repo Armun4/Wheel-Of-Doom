@@ -16,7 +16,7 @@ function recordCreator() {
           <div
             class="voting__triangle voting__triangle--up"
             id="up"
-            onClick="photoChoice(this)"
+            onClick="photoChoiceUp(this)"
           ></div>
           <!-- Number -->
           <div class="voting__number"></div>
@@ -24,7 +24,7 @@ function recordCreator() {
           <div
             class="voting__triangle voting__triangle--down"
             id="down"
-            onClick="photoChoice(this)"
+            onClick="photoChoiceDown(this)"
           ></div>
         </div>
       </div>
@@ -41,17 +41,26 @@ function exit() {
     document.querySelector("#root").innerHTML = ""
 }
 
-function photoChoice(select){
-    let photoselect = document.querySelector(".photo")
-    let index = photoselect.id
-    if (select.id === "up" && photoselect.id < coderList.length){
-      photoselect.src= coderList[index++].img
-      photoselect.id = index ++
+
+
+
+function photoChoiceUp (select){
+  let photoselect = document.querySelector(".photo")
+  let index = photoselect.id
+    if (select.id === "up" && photoselect.id < photoList.length -1){
+      photoselect.src= photoList[index++].img
+      photoselect.id = index++
+      console.log(index)
     }
-    else if (select.id === "down" && photoselect.id > 0){
-        photoselect.src=coderList[index --].img
-        photoselect.id= index --
     }
-    // al darle click al boton de las flechas, funciona la segundo click
-    // problema de imagen 
+    
+    function photoChoiceDown (select){ 
+      let photoselect = document.querySelector(".photo")
+      let index = photoselect.id 
+      index = index - 1
+    if (select.id === "down" && photoselect.id > 0){
+        photoselect.src=photoList[index].img
+        photoselect.id= index
+        console.log(index)
+    }
 }
