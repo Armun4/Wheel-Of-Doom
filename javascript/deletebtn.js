@@ -1,6 +1,6 @@
 let trash = document.querySelector('.trashButton')
 
-function deleteCoder () {
+function renderCross () {
  let arrayDelete = document.querySelectorAll('.delete') 
     for (let i = 0; i < arrayDelete.length; i++) {
       if (arrayDelete[i].style.display == "none") {
@@ -12,14 +12,13 @@ function deleteCoder () {
     }
   }
 
-trash.addEventListener('click',deleteCoder)
+trash.addEventListener('click',renderCross)
 
 
-function eraseCoder (file) {
+function eraseRecord(file) {
   let indexCoder = file.parentElement.parentElement.id
   coderList.splice(indexCoder,1)
-
- createPlayers() 
- slider()
- deleteCoder ()
+  createPlayers() 
+  upDateRoulette()
+  renderCross()
 }
