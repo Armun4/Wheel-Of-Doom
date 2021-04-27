@@ -10,7 +10,7 @@ function renderCross () {
       arrayDelete[i].style.display='none';
       }
     }
-  }onck
+  }
 
 trash.addEventListener('click',renderCross)
 
