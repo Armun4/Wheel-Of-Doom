@@ -1,12 +1,12 @@
 footer {
-    background-color: #C4C4C4;
+    background-color :#386C5f;
     width: 100vw;
     height: 42vh;
 }
 .slider {
     width: fit-content;
     position: relative;
-    background-color: rgb(214, 0, 0);
+    background-color: aquamarine;
     display: flex;
     left: -62px;
     top: -14px;
@@ -99,4 +99,5 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     margin: 0;
     padding: 0;
+    justify-items: center;
 }
