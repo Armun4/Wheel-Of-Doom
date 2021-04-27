@@ -61,6 +61,7 @@ footer {
 
 .btn1,
 .btn2 {
+  outline: none;
   font-family: 'VT323', monospace;
   font-size: 1.5rem;
   font-weight: bold;
