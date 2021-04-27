@@ -3,10 +3,10 @@ function createPlayers() {
     for (let i = 0; i < coderList.length; i++){
         if (coderList[i].life === true) {
             coder += `
-        <li class="coder-token">
+        <li class="coder-token" id="${i}">
        
             <figure class="coder-avatar">
-            <button class="delete block">X</button>
+            <button class="delete" style="display:none" onclick="eraseCoder(this)">X</button>
                 <img src="${coderList[i].img}" alt="" />
             </figure>
             <figcaption class="coder-name">${coderList[i].name}</figcaption>
@@ -15,8 +15,9 @@ function createPlayers() {
         }
         if (coderList[i].life === false) {
             coder += `
-        <li class="coder-token">
+        <li class="coder-token" id="${i}">
             <figure class="coder-avatar">
+            <button class="delete" style="display:none" onclick="eraseCoder(this)">X</button>
                 <img src="./Photos/calavera.png" alt="" />
             </figure>
             <figcaption class="coder-name">${coderList[i].name}</figcaption>
@@ -75,3 +76,4 @@ function reset() {
 }
 
 botonReset.addEventListener("click", reset)
+//aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

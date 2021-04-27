@@ -2,28 +2,24 @@ let trash = document.querySelector('.trashButton')
 
 function deleteCoder () {
  let arrayDelete = document.querySelectorAll('.delete') 
- console.log(arrayDelete[0].style.display)
- if (arrayDelete[0].classList.contains('block')) {
-    
     for (let i = 0; i < arrayDelete.length; i++) {
-        arrayDelete[i].style.display='block';
-        arrayDelete[i].classList.add('none')
-        arrayDelete[i].classList.remove('block')
+      if (arrayDelete[i].style.display == "none") {
+        arrayDelete[i].style.display = "block";
+      } 
+      else if (arrayDelete[i].style.display == "block"){
+      arrayDelete[i].style.display='none';
       }
- }
- 
- if (arrayDelete[0].style.display =='none'  ) {
-    for (let i = 0; i < arrayDelete.length; i++) {
-        arrayDelete[i].classList.add('block')
-        arrayDelete[i].classList.remove('none')
-        arrayDelete[i].style.display='none';
-      }
- }
-    
-}
-
+    }
+  }
 
 trash.addEventListener('click',deleteCoder)
 
 
- 
+function eraseCoder (file) {
+  let indexCoder = file.parentElement.parentElement.id
+  coderList.splice(indexCoder,1)
+
+ createPlayers() 
+ slider()
+ deleteCoder ()
+}
