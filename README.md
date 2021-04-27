@@ -1,4 +1,4 @@
-## BIENVENIDO AL NUESTRO TERCERCO  PROJECTO DE LOREM:B ☠️
+## BIENVENIDO A NUESTRO TERCERCO  PROJECTO DE LOREM:B ☠️
 ## Wheel-Of-Doom tercero-projecto-fullstack-factoria-f5
 
 Debes tener instalado composer una vez hayas clonado, posteriormente ejecutar el comando:
