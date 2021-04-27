@@ -6,7 +6,7 @@ function createPlayers() {
         <li class="coder-token" id="${i}">
        
             <figure class="coder-avatar">
-            <button class="delete" style="display:none" onclick="eraseCoder(this)">X</button>
+            <button class="delete" style="display:none" onclick="eraseRecord(this)">X</button>
                 <img src="${coderList[i].img}" alt="" />
             </figure>
             <figcaption class="coder-name">${coderList[i].name}</figcaption>
@@ -17,7 +17,7 @@ function createPlayers() {
             coder += `
         <li class="coder-token" id="${i}">
             <figure class="coder-avatar">
-            <button class="delete" style="display:none" onclick="eraseCoder(this)">X</button>
+            <button class="delete" style="display:none" onclick="eraseRecord(this)">X</button>
                 <img src="./Photos/calavera.png" alt="" />
             </figure>
             <figcaption class="coder-name">${coderList[i].name}</figcaption>
