@@ -3,15 +3,6 @@ footer {
   height: 42vh;
 }
 .slider {
-<<<<<<< HEAD
-  width: fit-content;
-  position: relative;
-  background-color: aquamarine;
-  display: flex;
-  left: -62px;
-  transition: left 1000ms;
-  box-shadow: 0px 3px 10px black, 0px -3px 10px black;
-=======
     width: fit-content;
     position: relative;
     background-color: aquamarine;
@@ -19,7 +10,6 @@ footer {
     left: -62px;
     top: -14px;
     transition: left 4000ms;
->>>>>>> 1738cb3860aa51fdfc8fd4abbbb8216cf970d6e3
 }
 .slider div {
   position: relative;
@@ -39,45 +29,6 @@ footer {
   font-size: 3vh;
 }
 
-<<<<<<< HEAD
-.btn1,
-.btn2 {
-  height: 2rem;
-  width: 6rem;
-  text-align: center;
-  font-family: 'VT323', monospace;
-  font-size: 1.5rem;
-  font-weight: bold;
-  border: none;
-  background-color: #ec563b;
-  border-radius: 10px;
-  cursor: pointer;
-  color: black;
-  text-decoration: none;
-  /* text-shadow:0px 1px 0px #66293D; */
-  filter: drop-shadow(2px 2px 4px black);
-  position: relative;
-  border: 2px solid black;
-}
-
-.btn2 {
-    background-color: #f3c852;
-}
-.btn1 {
-    background-color: #ec563b;
-}
-
-/* .btn2:hover {
-  filter: drop-shadow(2.5px 2.5px 1px black);
-  cursor: pointer;
-  filter: drop-shadow(4px 4px 4px black);
-}
-.btn1:hover {
-  filter: drop-shadow(2.5px 2.5px 1px black);
-  cursor: pointer;
-  filter: drop-shadow(4px 4px 4px black);
-  background-color: red;
-} */
 .fig {
   display: flex;
   justify-content: center;
@@ -89,28 +40,14 @@ footer {
   position: relative;
   clip-path: polygon(0 0, 100% 0%, 100% 70%, 50% 100%, 0 70%);
   transform: translate();
-  min-width: 7rem;;
-=======
+  min-width: 7rem;
+  }
 
-.fig{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    width: 28vw;
-    height: 16vh;
-    top: -20px;
-    align-items: center;
-    position: relative;
-    clip-path: polygon(0 0, 100% 0%, 100% 70%, 50% 100%, 0 70%);
-    transform: translate();
->>>>>>> 1738cb3860aa51fdfc8fd4abbbb8216cf970d6e3
-}
 .fig img {
   object-fit: cover;
   align-content: center;
   display: flex;
 }
-<<<<<<< HEAD
 .foot-parti-1 {
   width: 100%;
   display: flex;
@@ -119,19 +56,10 @@ footer {
   padding: 0;
   align-items: center;
   }
-=======
-.foot-parti-1{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0;
-    padding: 0;
-    justify-items: center;
-}
-
-
 .btn1,
 .btn2 {
+  width: 6rem;
+  height: 3rem;
   outline: none;
   font-family: 'VT323', monospace;
   font-size: 1.5rem;
@@ -140,8 +68,6 @@ footer {
   border-radius: 10px;
   cursor: pointer;
   color: black;
-  height: 5vh;
-  width: 60%;
   text-decoration: none;
   /* text-shadow:0px 1px 0px #66293D; */
   margin: 15px auto;
@@ -166,4 +92,3 @@ footer {
   filter: drop-shadow(4px 4px 4px black);
   background-color: red;
 } 
->>>>>>> 1738cb3860aa51fdfc8fd4abbbb8216cf970d6e3
