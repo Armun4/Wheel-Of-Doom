@@ -120,7 +120,7 @@ let coderList = [
       life: true
   },
   {
-      name:"Snzhana",
+      name:"Snezhana",
       img:"Photos/cryptopunks/cp09.png",
       id:20,
       life: true
