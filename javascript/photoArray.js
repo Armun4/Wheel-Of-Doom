@@ -119,6 +119,42 @@ let photoList = [
         img:"Photos/cryptopunks/cp06.png",
         id:27,
     },
+    {
+        img:"Photos/cryptopunks/34cp.png",
+        id:28,
+    },
+    {
+        img:"Photos/cryptopunks/33cp.png",
+        id:29,
+    },
+    {
+        img:"Photos/cryptopunks/34cp.png",
+        id:30,
+    },
+    {
+        img:"Photos/cryptopunks/35cp.png",
+        id:31,
+    },
+    {
+        img:"Photos/cryptopunks/38cp.png",
+        id:32,
+    },
+    {
+        img:"Photos/cryptopunks/39cp.png",
+        id:33,
+    },
+    {
+        img:"Photos/cryptopunks/40cp.png",
+        id:34,
+    },
+    {
+        img:"Photos/cryptopunks/36cp.png",
+        id:35
+    },
+    {
+        img:"Photos/cryptopunks/41cp.png",
+        id:36
+    },
   ];
   
   
