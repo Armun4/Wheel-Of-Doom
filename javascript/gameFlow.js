@@ -2,9 +2,14 @@ const botonGo = document.querySelector(".btn1")
 const botonReset = document.querySelector(".btn2")
 
 function startRoulette() {
+    roulettesound()
     upDateRoulette()
     rouletteSpin()
     createPlayers()
+}
+function roulettesound() {
+    let audio = document.getElementById("roulettesound")
+    audio.play()
 }
 function rouletteSpin() {
     let sliders = document.querySelector(".slider")
