@@ -1,6 +1,6 @@
 footer {
     background-color :#386C5f;
-    /*height: 42vh;*/
+    height: 43vh;
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
@@ -43,7 +43,6 @@ footer {
   align-items: center;
   position: relative;
   clip-path: polygon(0 0, 100% 0%, 100% 70%, 50% 100%, 0 70%);
-  transform: translate();
   min-width: 7rem;
   }
 
@@ -74,8 +73,6 @@ footer {
   border-radius: 10px;
   cursor: pointer;
   color: black;
-  height: 2rem;
-  width: 5rem;
   top: -1rem;
   text-decoration: none;
   filter: drop-shadow(2px 2px 4px black);
@@ -92,6 +89,7 @@ footer {
   filter: drop-shadow(2.5px 2.5px 1px black);
   cursor: pointer;
   filter: drop-shadow(4px 4px 4px black);
+  background-color: #d5f352;
 }
 .btn1:hover {
   filter: drop-shadow(2.5px 2.5px 1px black);
@@ -109,6 +107,7 @@ footer {
     }
     footer {
         width: 61vw;
+        height: auto;
     }
     .slider div {
         width: 25vw;
@@ -117,7 +116,7 @@ footer {
         width: 15rem;
     }
     .coders-list {
-        height: 84vh;
+        height: 88vh;
     }
 }
 /* hi

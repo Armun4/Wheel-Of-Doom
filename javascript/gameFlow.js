@@ -9,6 +9,7 @@ function startRoulette() {
 }
 function roulettesound() {
     let audioR = document.getElementById("roulettesound")
+    audioR.currentTime= 0
     audioR.play()
 }
 function rouletteSpin() {
@@ -25,8 +26,8 @@ function getRandomNumber(array) {
 
 function aliveSound( ){
     let audioA = document.getElementById("aliveSound")
+    audioA.currentTime= 0
     audioA.play()
-    console.log(audioA)
 }
 
 
