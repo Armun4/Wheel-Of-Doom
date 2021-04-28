@@ -1,3 +1,9 @@
+.container-main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   padding: 1rem;
   font-family: "Source Code Pro", monospace;
