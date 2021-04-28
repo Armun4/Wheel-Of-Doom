@@ -1,3 +1,5 @@
+
+
 function createPlayers() {
     let coder = ""
     for (let i = 0; i < coderList.length; i++){
@@ -25,8 +27,10 @@ function createPlayers() {
         `
         }
     }
+    
     document.querySelector(".coders-list").innerHTML = coder
 }
+
 function upDateRoulette() {
     let player = ""
     for (let i = 0; i < coderList.length; i++){

@@ -2,10 +2,19 @@ const botonGo = document.querySelector(".btn1")
 const botonReset = document.querySelector(".btn2")
 
 function startRoulette() {
+    // timeLimit()
     roulettesound()
     upDateRoulette()
     rouletteSpin()
     createPlayers()
+}
+function timeLimit() {
+    let period = 10000;       // 5 minutes
+    let ahora = new Date();
+    let milisegundos = ahora.getMilliseconds();
+    for( let tStart = milisegundos;  (milisegundos-tStart) < period;){
+    console.log("hi")
+    }
 }
 function roulettesound() {
     let audioR = document.getElementById("roulettesound")
