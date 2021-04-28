@@ -6,7 +6,7 @@ function createPlayers() {
         <li class="coder-token" id="${i}">
        
             <figure class="coder-avatar">
-            <button class="delete" style="display:none" onclick="eraseCoder(this)">X</button>
+            <button class="delete" style="display:none" onclick="eraseRecord(this)">X</button>
                 <img src="${coderList[i].img}" alt="" />
             </figure>
             <figcaption class="coder-name">${coderList[i].name}</figcaption>
@@ -17,7 +17,7 @@ function createPlayers() {
             coder += `
         <li class="coder-token" id="${i}">
             <figure class="coder-avatar">
-            <button class="delete" style="display:none" onclick="eraseCoder(this)">X</button>
+            <button class="delete" style="display:none" onclick="eraseRecord(this)">X</button>
                 <img src="./Photos/calavera.png" alt="" />
             </figure>
             <figcaption class="coder-name">${coderList[i].name}</figcaption>
@@ -27,9 +27,7 @@ function createPlayers() {
     }
     document.querySelector(".coders-list").innerHTML = coder
 }
-createPlayers()
-
-function slider() {
+function upDateRoulette() {
     let player = ""
     for (let i = 0; i < coderList.length; i++){
         if (coderList[i].life === true){
@@ -44,35 +42,5 @@ function slider() {
     
     document.querySelector(".slider").innerHTML = player
 }
-slider()
-
-const botonGo = document.querySelector(".btn1")
-
-function go() {
-    slider()
-    let sliders = document.querySelector(".slider")
-    let playersLife = document.querySelectorAll(".slider div")
-    let player = sliders.offsetWidth / playersLife.length
-    let numberRandom = Math.floor((Math.random() * playersLife.length - 1)+1)
-    let dead = playersLife[numberRandom].id
-    console.log(dead)
-    let meNewPosition = - player * numberRandom
-    sliders.style.left = (meNewPosition + player) + "px" 
-    coderList[dead].life = false
-    createPlayers()
-}
-
-botonGo.addEventListener("click", go)
-
-const botonReset = document.querySelector(".btn2")
-
-function reset() {  
-    for (let i = 0; i < coderList.length; i++) {
-        coderList[i].life = true
-        document.querySelector(".slider").style.left = -62 + "px"
-        slider()
-        createPlayers()
-    }
-}
-
-botonReset.addEventListener("click", reset)
+createPlayers()
+upDateRoulette()

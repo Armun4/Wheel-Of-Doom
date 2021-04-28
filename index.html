@@ -19,9 +19,14 @@
       href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
       rel="stylesheet"
     />
+
     <title>Wheel_of_Doom</title>
   </head>
   <body>
+    <audio src="/Sonido/ruleta.mp3" id="roulettesound"></audio>
+    <audio src="/Sonido/ALIVE.mp3" id="aliveSound"></audio>
+<div class="container-main">
+
  <div id="root"></div>
     <header class="header">
       <h1>Delete_the_Coder</h1>
@@ -40,6 +45,7 @@
         </figure>
       </div>
     </header>
+    <div class="move">
     <main>
     <section class="coders-display">
       <ul class="coders-list"></ul>
@@ -57,9 +63,14 @@
       </section>
       <section class="slider"></section>
     </footer>
-    <script src="/javascript/list.js"></script>
-    <script src="/javascript/sliderfooter.js"></script>
-    <script src="/javascript/ficha.js"></script>
-    <script src="/javascript/botonadd.js"></script>
+  </div>
+    <script src="javascript/photoArray.js"></script>
+    <script src="javascript/list.js"></script>
+    <script src="javascript/createPlayers.js"></script>
+    <script src="javascript/gameFlow.js"></script>
+    <script src="javascript/newPlayerRecord.js"></script>
+    <script src="javascript/botonadd.js"></script>
+    <script src="javascript/deletebtn.js"></script>
+  </div>
 </body>
 </html>
