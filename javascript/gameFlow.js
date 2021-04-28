@@ -26,6 +26,7 @@ function getRandomNumber(array) {
 function aliveSound( ){
     let audioA = document.getElementById("aliveSound")
     audioA.play()
+    console.log(audioA)
 }
 
 
