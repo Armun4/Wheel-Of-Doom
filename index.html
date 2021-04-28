@@ -25,7 +25,7 @@
   <body>
     <audio src="/Sonido/ruleta.mp3" id="roulettesound"></audio>
     <audio src="/Sonido/ALIVE.mp3" id="aliveSound"></audio>
-
+<div class="container-main">
 
  <div id="root"></div>
     <header class="header">
@@ -33,38 +33,37 @@
       
       <div class="buttons">
         
-        <div class="buttons">
+        <figure class="plusButton">
           
-          <figure class="plusButton">
-            
-            <img src="Photos/hearder/plus icon.png" alt="plus icon" />
-          </figure>
-          <figure class="trashButton">
-            <img
-              src="Photos/hearder/delete+remove+trash+trash+bin+trash+can+icon-1320073117929397588_512.png"
-              alt="trash icon"
-            />
-          </figure>
-        </div>
-      </header>
-      <main>
-      <section class="coders-display">
-        <ul class="coders-list"></ul>
+          <img src="Photos/hearder/plus icon.png" alt="plus icon" />
+        </figure>
+        <figure class="trashButton">
+          <img
+            src="Photos/hearder/delete+remove+trash+trash+bin+trash+can+icon-1320073117929397588_512.png"
+            alt="trash icon"
+          />
+        </figure>
+      </div>
+    </header>
+    <div class="move">
+    <main>
+    <section class="coders-display">
+      <ul class="coders-list"></ul>
+    </section>
+    </main>
+    <footer>
+      <section class="foot-parti-1">
+        <!-- redundant div deleted -->
+        <!-- <button type="button">Click Me!</button> -->
+        <button class="btn1">GO</button>
+        <figure class="fig">
+          <img src="Photos/pngegg 3.png" alt="" />
+        </figure>
+        <button class="btn2">RESET</button>
       </section>
-      </main>
-      <footer>
-        <section class="foot-parti-1">
-          <button class="btn1"><p>go</p></button>
-          <figure class="fig">
-            <img src="Photos/pngegg 3.png" alt="" />
-          </figure>
-          <button class="btn2"><p>reset</p></button>
-        </section>
-        <section class="slider"></section>
-      </footer>
-    </div>
- 
-    
+      <section class="slider"></section>
+    </footer>
+  </div>
     <script src="javascript/photoArray.js"></script>
     <script src="javascript/list.js"></script>
     <script src="javascript/createPlayers.js"></script>
@@ -72,5 +71,6 @@
     <script src="javascript/newPlayerRecord.js"></script>
     <script src="javascript/botonadd.js"></script>
     <script src="javascript/deletebtn.js"></script>
+  </div>
 </body>
 </html>
