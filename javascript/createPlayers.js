@@ -1,5 +1,3 @@
-
-
 function createPlayers() {
     let coder = ""
     for (let i = 0; i < coderList.length; i++){

@@ -9,6 +9,7 @@ function startRoulette() {
     setTimeout(() => {
         createPlayers()
     }, 4000)
+    
 }
 function timeLimit() {
     let period = 10000;       // 5 minutes
@@ -30,7 +31,20 @@ function rouletteSpin() {
     let numberRandom = getRandomNumber(playersLife)
     sliders.style.left = ((- player * numberRandom) + player) + "px" 
     coderList[playersLife[numberRandom].id].life = false
+    bordermove(numberRandom)
 }
+function bordermove(number) {
+    // wait(500)
+    // probar foreche
+    for(let i = 0; i  < number; i++){
+        let mydiv = document.querySelectorAll(".coder-token")
+        mydiv[i].classList.add("selector") 
+        setTimeout(() => {
+            mydiv[i].classList.remove("selector")
+        }, 300)
+    }
+}
+
 function getRandomNumber(array) {
     return Math.floor((Math.random() * array.length - 1)+1)
 }
