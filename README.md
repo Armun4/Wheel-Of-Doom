@@ -11,9 +11,11 @@ hemos usado @Trello para ordenar nuestro trabajo y tamnien pra asignar tareas te
 ### somos @LOREM:B
 ### MIENBROS 
 ###  Amando Mago
-[![Amando Mago](Amando Mago "Amando Mago")](http://<img src="img-readm/amando.png" style="width: 20px;"> "Amando Mago")
-[![Lea calafell](Lea calafell "Lea calafell")](http:// <img src="img-readm/lea.png" style="width: 20px;"> "Lea calafell")
- [![Abdulha Sharif](Abdulha Sharif "Abdulha Sharif")](http:// <img src="img-readm/abdulah.png"  style="width: 20px;"> "Abdulha Sharif")
- [![Anya Kholodenko](Anya Kholodenko "Anya Kholodenko")](http://<img src="img-readm/anya.png"  style="width: 20px;"> "Anya Kholodenko")
-[![Thierno Diallo](Thierno Diallo "Thierno Diallo")](http://<img src="img-readm/thierno.png" style="width: 20px;"> "Thierno Diallo")
+###  abdulha
+
+###  Anya Kholodenko 
+
+###  leah calafell
+
+###  Thierno
 
