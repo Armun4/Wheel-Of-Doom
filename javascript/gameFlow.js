@@ -2,10 +2,21 @@ const botonGo = document.querySelector(".btn1")
 const botonReset = document.querySelector(".btn2")
 
 function startRoulette() {
+    // timeLimit()
     roulettesound()
     upDateRoulette()
     rouletteSpin()
-    createPlayers()
+    setTimeout(() => {
+        createPlayers()
+    }, 4000)
+}
+function timeLimit() {
+    let period = 10000;       // 5 minutes
+    let ahora = new Date();
+    let milisegundos = ahora.getMilliseconds();
+    for( let tStart = milisegundos;  (milisegundos-tStart) < period;){
+    console.log("hi")
+    }
 }
 function roulettesound() {
     let audioR = document.getElementById("roulettesound")
@@ -23,7 +34,6 @@ function rouletteSpin() {
 function getRandomNumber(array) {
     return Math.floor((Math.random() * array.length - 1)+1)
 }
-
 function aliveSound( ){
     let audioA = document.getElementById("aliveSound")
     audioA.currentTime= 0

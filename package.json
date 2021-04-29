@@ -1,0 +1,22 @@
+{
+  "name": "wheel-of-doom",
+  "version": "1.0.0",
+  "description": "Debes tener instalado composer una vez hayas clonado, posteriormente ejecutar el comando: *Composer install",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armun4/Wheel-Of-Doom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Armun4/Wheel-Of-Doom/issues"
+  },
+  "homepage": "https://github.com/Armun4/Wheel-Of-Doom#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
