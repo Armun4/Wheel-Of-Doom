@@ -41,26 +41,21 @@ function exit() {
     document.querySelector("#root").innerHTML = ""
 }
 
-
-
-
 function photoChoiceUp (select){
   let photoselect = document.querySelector(".photo")
   let index = photoselect.id
     if (select.id === "up" && photoselect.id < photoList.length -1){
       photoselect.src= photoList[index++].img
       photoselect.id = index++
-      console.log(index)
     }
-    }
+  }
     
-    function photoChoiceDown (select){ 
-      let photoselect = document.querySelector(".photo")
-      let index = photoselect.id 
-      index = index - 1
-    if (select.id === "down" && photoselect.id > 0){
-        photoselect.src=photoList[index].img
-        photoselect.id= index
-        console.log(index)
-    }
+function photoChoiceDown (select){ 
+  let photoselect = document.querySelector(".photo")
+  let index = photoselect.id 
+  index = index - 1
+  if (select.id === "down" && photoselect.id > 0){
+      photoselect.src=photoList[index].img
+      photoselect.id= index
+  }
 }
