@@ -16,10 +16,10 @@ hemos usado @Trello para ordenar nuestro trabajo y tamnien pra asignar tareas te
 ### Equipo
 somos @LOREM:B
 ### MIENBROS 
-###  Amando Mago <img src="img-readme/amando.png">
-### Leah calafell  <img src="img-readme/lea.png">
-### Abdulha sharif  <img src="img-readme/abdulah.png">
-### Anya Kholodenko <img src="img-readme/anya.png">
-###  Thierno Diallo <img src="img-readme/thierno.png">
+###  Amando Mago <img src="img-readme/amando.png" style="width: 18rem;">
+### Leah calafell  <img src="img-readme/lea.png" style="width: 18rem;">
+### Abdulha sharif  <img src="img-readme/abdulah.png"  style="width: 18rem;">
+### Anya Kholodenko <img src="img-readme/anya.png"  style="width: 18rem;">
+###  Thierno Diallo <img src="img-readme/thierno.png" style="width: 18rem;">
 
 
