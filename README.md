@@ -6,7 +6,7 @@ Debes tener instalado composer una vez hayas clonado, posteriormente ejecutar el
 
 #Introdución
 #### Wheel-of-doom nace debido del nuestro replica de trabajo de grupo en la formación factoria f5 A dónde puedes jugar con la ruleta random que van a matar a cada persona a cada vez que se para puedes añadir mienbros y quitar es una juego muy divertido para hacer una selección de equipos o entre amigos aqui esta nuestra github page click  [Aqui](https://armun4.github.io/Wheel-Of-Doom/ "Aqui")
-<img src="weel-of-the-dom-img1.gif"> <img src="weel.gif"> 
+<img src="img-readme/weel-of-the-dom-img1.gif"> <img src="weel.gif"> 
 
 ####al presionar la rueda eliminar mató a una persona de la lista en modo aleatorio al azar acoompagne de una música de la muerte puede agregar miembros y eliminarlos cambiar la foto que desee y adaptar a todos los dispositivos
 
@@ -16,10 +16,10 @@ hemos usado @Trello para ordenar nuestro trabajo y tamnien pra asignar tareas te
 ### Equipo
 somos @LOREM:B
 ### MIENBROS 
-###  Amando Mago
-### Leah calafell
-### Abdulha sharif
-### Anya Kholodenko
-###  Thierno Diallo
+###  Amando Mago <img src="img-readme/amando.png">
+### Leah calafell  <img src="img-readme/lea.png">
+### Abdulha sharif  <img src="img-readme/abdulah.png">
+### Anya Kholodenko <img src="img-readme/anya.png">
+###  Thierno Diallo <img src="img-readme/thierno.png">
 
 
