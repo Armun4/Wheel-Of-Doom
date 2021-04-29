@@ -6,7 +6,6 @@ function createPlayers() {
         if (coderList[i].life === true) {
             coder += `
         <li class="coder-token" id="${i}">
-       
             <figure class="coder-avatar">
             <button class="delete" style="display:none" onclick="eraseRecord(this)">X</button>
                 <img src="${coderList[i].img}" alt="" />

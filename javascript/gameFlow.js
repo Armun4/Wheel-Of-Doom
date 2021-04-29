@@ -34,7 +34,6 @@ function rouletteSpin() {
 function getRandomNumber(array) {
     return Math.floor((Math.random() * array.length - 1)+1)
 }
-module.exports = getRandomNumber
 function aliveSound( ){
     let audioA = document.getElementById("aliveSound")
     audioA.currentTime= 0
