@@ -6,7 +6,9 @@ function startRoulette() {
     roulettesound()
     upDateRoulette()
     rouletteSpin()
-    createPlayers()
+    setTimeout(() => {
+        createPlayers()
+    }, 4000)
 }
 function timeLimit() {
     let period = 10000;       // 5 minutes
@@ -32,7 +34,7 @@ function rouletteSpin() {
 function getRandomNumber(array) {
     return Math.floor((Math.random() * array.length - 1)+1)
 }
-
+module.exports = getRandomNumber
 function aliveSound( ){
     let audioA = document.getElementById("aliveSound")
     audioA.currentTime= 0
