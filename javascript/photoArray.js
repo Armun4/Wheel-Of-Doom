@@ -148,7 +148,7 @@ let photoList = [
         id:35
     },
     {
-        img:"Photos/cryptopunks/cp41.png",
+        img:"Photos/cryptopunks/cp41no.png",
         id:36
     },
   ];

@@ -19,3 +19,4 @@ hemos usado @Trello para ordenar nuestro trabajo y tamnien pra asignar tareas te
 
 ###  Thierno
 
+#### Para testear el codigo utilizar el comando npm ci deguido de npm test
