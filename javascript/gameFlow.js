@@ -13,7 +13,7 @@ function startRoulette() {
 
 function roulettesound() {
     let audioR = document.getElementById("roulettesound")
-    audioR.currentTime= 0
+    audioR.currentTime = 0
     audioR.play()
 }
 function rouletteSpin() {
@@ -32,17 +32,17 @@ async function bordermove(number) {
         if (coderList[numberdiv].life == false && i != number) {
             number ++
         }   
-         if (coderList[numberdiv].life == true){
+        if (coderList[numberdiv].life == true){
             mydiv[numberdiv].classList.add("selector") 
             setTimeout(() => {
                 mydiv[numberdiv].classList.remove("selector")
             }, 300)
             await sleep(3000 / number);
         }
-        if (coderList[numberdiv].life == false && i === number ){
-            mydiv[number].classList.add("selector") 
+        if (coderList[numberdiv].life == false && i === number){
+            mydiv[numberdiv].classList.add("selector") 
             setTimeout(() => {
-                mydiv[number].classList.remove("selector")
+            mydiv[numberdiv].classList.remove("selector")
             }, 600)
         }
     }
