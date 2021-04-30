@@ -24,6 +24,6 @@ hemos usado @Trello para ordenar nuestro trabajo y tambien para asignar tareas t
 <img src="https://github.com/Armun4/Wheel-Of-Doom/blob/main/Photos/cryptopunks/cp12.png?raw=true">
 
 ### Thierno_Sadialiou_Diallo
-<img src="photos/cryptopunks/cp01.png">
+<img src="https://github.com/Armun4/Wheel-Of-Doom/blob/main/Photos/cryptopunks/cp01.png?raw=true">
 
 #### Para testear el codigo utilizar el comando "npm ci" deguido de "npm test"
