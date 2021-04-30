@@ -5,18 +5,22 @@
 ### al presionar el boton GO se elimiara a una persona de la lista en modo aleatorio al azar acompañada de una sonido de la muerte. se puede agregar miembros y eliminarlos, Utilizar la imagen que prefieras. la pagina se adapta a todos los dispositivos
 
 ### Haramientas 
-#### Html Css Javascipt Fizzbuzz Trello poker pinks 
+### Html Css Javascipt Fizzbuzz Trello poker pinks 
 hemos usado @Trello para ordenar nuestro trabajo y tambien para asignar tareas tenemos una html simple y un @javascript dinamico 
 ### Equipo
-### somos @LOREM:B
+### somos @LOREM:D
 ### MIENBROS 
-###  Amando Mago
-###  abdulha
 
-###  Anya Kholodenko 
+### Armando_Mago
 
-###  leah calafell
+### Abdulha_Idrees
 
-###  Thierno
+### Anya_Kholodenko
+
+
+### Leah_Calafell
+
+### Thierno_Sadialiou_Diallo
+
 
 #### Para testear el codigo utilizar el comando "npm ci" deguido de "npm test"
