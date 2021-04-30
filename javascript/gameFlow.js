@@ -34,11 +34,11 @@ function rouletteSpin() {
     bordermove(numberRandom)
 }
 async function bordermove(number) {
-    // wait(500)
-    // probar foreche
     for(let i = 0; i  <= number; i++){
-        if (coderList[i].life == true){
-            let mydiv = document.querySelectorAll(".coder-token")
+        let mydiv = document.querySelectorAll(".coder-token")
+        let numberdiv = mydiv[i].id
+            if (coderList[numberdiv].life == true){
+
             mydiv[i].classList.add("selector") 
             setTimeout(() => {
                 mydiv[i].classList.remove("selector")
