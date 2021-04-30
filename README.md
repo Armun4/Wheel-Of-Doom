@@ -12,13 +12,11 @@ hemos usado @Trello para ordenar nuestro trabajo y tambien para asignar tareas t
 ### MIENBROS 
 
 ### Armando_Mago
-<img src="https://github.com/Armun4/Wheel-Of-Doom/blob/main/Photos/cryptopunks/cp27.png?raw=true">
 
 ### Abdulha_Idrees
-<img src="https://github.com/Armun4/Wheel-Of-Doom/blob/main/Photos/cryptopunks/cp15.png?raw=true">
 
 ### Anya_Kholodenko
-<img src="https://github.com/Armun4/Wheel-Of-Doom/blob/main/Photos/cryptopunks/cp32.png?raw=true">
+
 
 ### Leah_Calafell
 <img src="https://github.com/Armun4/Wheel-Of-Doom/blob/main/Photos/cryptopunks/cp12.png?raw=true">
