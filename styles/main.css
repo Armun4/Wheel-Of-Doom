@@ -22,6 +22,7 @@ body {
   overflow-y: auto;
 }
 .coder-token {
+  position: relative;
   background-color: lightgray;
   display: flex;
   flex-flow: column;
@@ -40,20 +41,13 @@ body {
     margin: auto;
     line-height: 1.6;
 }
-
 .delete {
-	background-color:#ed0510;
+	background-color: black;
 	cursor: pointer;
-	color: #ffffff;
-	font-family: "Source Code Pro", monospace;
-  font-weight: bold;
-	font-size:17px;
-	padding:7px 10px;
-	text-decoration: none;
-	text-shadow:0px 1px 0px #2f6627;
   border: none;
   box-shadow: none;
   text-shadow: none;
+  position: absolute;
 }
 .selector {
   border: 2px solid gold
