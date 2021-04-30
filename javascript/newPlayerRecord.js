@@ -4,31 +4,26 @@ function recordCreator() {
     let newplayer = ""
     newplayer += `
     <div class="container">
-    <section class="product-description">
-      <button onClick="exit()" class="exit">X</button>
+    <section class="new-player-pop-up">
+      <button onClick="exit()" class="exit">✖️</button>
       <h3 class="newplayer">New player</h3>
-      <h3 class="name">name</h3>
-      <input type="text" class="input" />
-      <div class="photo_botton">
+      <input type="text" class="input" placeholder="type a name..."/>
+      <div class="selection-photo">
         <img src="./Photos/cryptopunks/cp14.png" id="14" class="photo" />
-        <div class="voting">
+        <div class="selection">
           <!-- Up button -->
-          <div
-            class="voting__triangle voting__triangle--up"
+          <div class="arrow-up"
             id="up"
-            onClick="photoChoiceUp(this)"
-          ></div>
-          <!-- Number -->
-          <div class="voting__number"></div>
+            onClick="photoChoiceUp(this)">.
+          </div>
           <!-- Down button -->
-          <div
-            class="voting__triangle voting__triangle--down"
+          <div class="arrow-down"
             id="down"
-            onClick="photoChoiceDown(this)"
-          ></div>
+            onClick="photoChoiceDown(this)">.
+          </div>
         </div>
       </div>
-      <a href="#" onClick="newplayer()" class="myButton">Create</a>
+      <a href="#" onClick="newplayer()" class="myButton">CREATE</a>
     </section>
   </div>
   `
