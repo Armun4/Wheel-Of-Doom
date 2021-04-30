@@ -6,5 +6,3 @@ function newplayer() {
     createPlayers()
     upDateRoulette()
 }
-
-
